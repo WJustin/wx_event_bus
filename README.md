@@ -2,7 +2,8 @@
 ## 概述
 在开发微信小程序过程中，发现并不提供消息订阅及广播的api，如iOS开发中的NSNotificationCenter, Android开发中EventBus，node.js中的 EventEmitter等。
 ## 预览
-<img src="https://github.com/WJustin/wx_event_bus/blob/master/event.gif" />
+<img src="https://github.com/WJustin/wx_event_bus/blob/master/event.gif"/>
+
 ## 如何使用
 具体可参考项目中的demo
 ## Api
