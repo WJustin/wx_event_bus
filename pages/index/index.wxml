@@ -1,0 +1,2 @@
+<view class='content'>{{content}}</view>
+<view class='next' bindtap='next'>下一页</view>

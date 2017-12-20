@@ -1,0 +1,18 @@
+/* pages/next/next.wxss */
+page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.next {
+  margin-top: 30rxp;
+  background-color: orange;
+  width: 100%;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+}
