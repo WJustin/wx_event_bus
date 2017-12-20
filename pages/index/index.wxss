@@ -10,10 +10,12 @@ page {
   border: 0.5rpx black solid;
   height: 400rpx;
   width: 500rpx;
+  display: flex;
+  flex-direction: column;
 }
 
-.next {
-  margin-top: 30rxp;
+.item {
+  margin-top: 30rpx;
   background-color: orange;
   width: 100%;
   height: 96rpx;

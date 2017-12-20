@@ -3,14 +3,14 @@ import * as Constant from '../../constant.js'
 
 Page({
   data: {
-    content:'',
+    texts:[]
   },
 
-  onLoad(options) {
+  add() {
     EventBus.addListener(Constant.didRecevieEventName, this.listener)
   },
 
-  onUnload() {
+  remove() {
     EventBus.removeListener(Constant.didRecevieEventName, this.listener)
   },
 
@@ -21,8 +21,9 @@ Page({
   },
 
   listener(e) {
+    this.data.texts.push(e + this.data.texts.length);
     this.setData({
-      content: e
+      texts: this.data.texts
     });
   }
   

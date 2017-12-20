@@ -1,2 +1,2 @@
 <!--pages/next/next.wxml-->
-<view class='next' bindtap='send'>发送通知</view>
+<view class='next' bindtap='send'>发送消息</view>

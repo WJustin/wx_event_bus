@@ -1,2 +1,4 @@
-<view class='content'>{{content}}</view>
-<view class='next' bindtap='next'>下一页</view>
+<view class='content'><text wx:for="{{texts}}" wx:key="{{index}}">{{item}}</text></view>
+<view class='item' bindtap='add'>添加监听者</view>
+<view class='item' bindtap='remove'>移除监听者</view>
+<view class='item' bindtap='next'>下一页</view>

@@ -8,7 +8,7 @@ Page({
   },
 
   send() {
-    EventBus.emit(Constant.didRecevieEventName, "我来自next页面");
+    EventBus.emit(Constant.didRecevieEventName, "Next页面发送消息");
   }
 
 })
